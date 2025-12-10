@@ -7,7 +7,7 @@ int main() {
     scanf("%d %d %d", &T, &S, &B);
 
     // Each block has 512 bytes
-    // Total capacity in bytes = 2 surfaces × T tracks × S sectors × B blocks × 512 bytes
+    // Total capacity in bytes = 2 surfaces Ã— T tracks Ã— S sectors Ã— B blocks Ã— 512 bytes
     int capacity_bytes = 2 * T * S * B * 512;
 
     // Convert bytes to kilobytes (1 KB = 1024 bytes)
