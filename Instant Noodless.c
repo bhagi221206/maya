@@ -7,7 +7,7 @@ int main() {
     scanf("%d %d", &X, &Y);
 
     // Each stove cooks 1 packet per minute
-    // Total packets = X stoves × Y minutes
+    // Total packets = X stoves Ã— Y minutes
     int totalPackets = X * Y;
 
     // Output: number of customers served
